@@ -2,11 +2,9 @@ import React from 'react'
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom'
 import axios from 'axios';
-import { PaperClipIcon } from '@heroicons/react/20/solid'
-import coin from '../coin.png'
 import { Link } from 'react-router-dom'
-
 import NavBar from './NavBar';
+
 export default function Coin() {
     let { id } = useParams();
 
@@ -172,7 +170,7 @@ export default function Coin() {
         </div>
     </div> 
     </div>
-
+    <NavBar/>
     </>
   
 
