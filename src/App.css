@@ -1,38 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+#header {
+  width: 100%;
+  text-align: center;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin-top: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.coin-list {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-wrap: wrap;
+  height: auto;
+  width: 100%;
+  margin: auto; 
 }
 
-.App-link {
-  color: #61dafb;
+.coin-list div {
+  width: 280px;
+  height: 230px;
+  background-color: rgb(174, 204, 204);
+  margin: 21px;
+  color: rgb(17, 17, 17);
+  text-decoration: solid;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-radius: 13px;
+  padding: 10px;
+  box-shadow: 1px 1px 5px #000000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.coin-list div:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 9px black;
+}
+
+.coin-list div small{
+  color: rgb(31, 37, 36);
 }
