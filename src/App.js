@@ -7,7 +7,7 @@ import image from './dark1.jpg'
 
 function App() {
   return (
-    <div className="App" style={{backgroundImage: image }}>
+    <div className="App">
     <Router>
       <Routes>
         <Route path="/" element={<LandingPage/>} exact/>
