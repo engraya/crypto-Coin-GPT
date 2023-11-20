@@ -62,7 +62,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
-
+![Screenshot (1216)](https://github.com/engraya/crypto-Coin-GPT/assets/115407251/d173f6e6-f606-49d8-bc74-1f1cca3d246b)
+![Screenshot (1217)](https://github.com/engraya/crypto-Coin-GPT/assets/115407251/d098d731-530f-45ef-b3fb-7722c877f040)
+![Screenshot (1218)](https://github.com/engraya/crypto-Coin-GPT/assets/115407251/dc13d77f-fc3b-4b43-b5d2-0078d114799d)
+![Screenshot (1214)](https://github.com/engraya/crypto-Coin-GPT/assets/115407251/2f38ff13-2fc3-411b-9db9-5e8484977979)
+![Screenshot (1215)](https://github.com/engraya/crypto-Coin-GPT/assets/115407251/38e5c52b-77b3-4fd5-93f5-8b6ff7e44ec6)
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
